@@ -1,0 +1,32 @@
+body nav {
+  height: 120px;
+  width: 100%;
+  /* background-color: #4056A1; */
+  background-color: #a67700;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  color: #FFFFFF;
+  padding: 0 1.5em;
+  justify-content: space-between;
+  display:flex;
+  font-size: 40px;
+  align-items: center;
+  z-index: 1;
+  flex-direction: row;
+  position:fixed;
+  top:0;
+  overflow: hidden;
+
+}
+
+
+.writetweet {
+  display:flex;
+  flex-direction: column;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+  
+}
+
