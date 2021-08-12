@@ -1,5 +1,5 @@
 .tweet-container {
-  height:2000px;
+  height:auto;
   display:flex;
   align-items: center;
   flex-direction: column;

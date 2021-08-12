@@ -62,3 +62,10 @@ output {
 #label-humming {
   margin-left: 25px;
 }
+
+#error-msg {
+  color:red;
+  align-self: center;
+  justify-content: center;
+  border: 2px solid red;
+}
