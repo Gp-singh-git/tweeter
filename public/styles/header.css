@@ -6,6 +6,9 @@ header {
   width: 100%;
   flex-direction: column;
   margin-top: 110px;
+  background-color: #a67700;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
 
 }
 header h2{

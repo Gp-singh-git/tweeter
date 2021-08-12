@@ -17,6 +17,8 @@
   width: 95%;
   align-items: center;
   margin-top:0px;
+  background-color: white;
+  background-image: none;
 }
 
 .tweet-border {
