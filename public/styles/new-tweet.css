@@ -39,10 +39,15 @@ button {
   font-weight: bolder;
   margin-left: 20px;
   width: 10%;
-  height: 30px;
+  height: 35px;
   font-family: 'Bungee', cursive;
   min-width: 80px;;
 }
+button:hover{
+  background-color: rgb(134, 25, 212);
+  color:yellow;
+}
+
 .t_area {
   justify-content: center;
   width:100%;

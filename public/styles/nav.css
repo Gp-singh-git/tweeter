@@ -26,8 +26,9 @@ body nav {
   align-items: center;
   justify-content: center;
   font-family: 'Source Sans Pro', sans-serif;
-  
-  
+}
+nav span:hover {
+  color:turquoise;
 }
 #icon{
   color:red;
