@@ -67,5 +67,6 @@ output {
   color:red;
   align-self: center;
   justify-content: center;
-  border: 2px solid red;
+  border: 3px solid red;
+  font-weight: bold;
 }

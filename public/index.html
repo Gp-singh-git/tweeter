@@ -42,7 +42,7 @@
       <span>tweeter</span>
       <div class="writetweet">
       <span ><b>Write</b> a New Tweet</span>
-      <i class="fas fa-angle-double-down"></i>
+      <i id="icon" class="fas fa-angle-double-down"></i>
       </div>
   </nav>
   <header >
@@ -50,7 +50,7 @@
         <img src="/images/profile-hex.png"> 
     </div>
     <div>
-        <h2>Your Name</h2>
+        <h2>DareDevil</h2>
     </div>
 </header>
   
@@ -59,7 +59,7 @@
     <main class="container">
       <section class="new-tweet">
         <!-- <h2>Compose Tweet</h2> -->
-        <p id="error-msg" hidden >Please dont Exceed the 140 character limit</p>
+        <p id="error-msg" hidden ><i class="fas fa-exclamation-circle"></i>  <i class="fas fa-exclamation-circle"></i></p>
         <form id="form-tweet" action = "/tweets/", method ="POST">
           <label for="tweet-text" id="label-humming"><i>What are you humming about?</i></label>
           <div class ="t_area">

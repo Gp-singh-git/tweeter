@@ -29,4 +29,15 @@ body nav {
   
   
 }
+#icon{
+  color:red;
+  cursor:pointer;
+  margin:5px;
+  animation: move 1s infinite alternate;
+  align-self: center;
+}
 
+@keyframes move{
+  0% {transform: translateY(0); }
+  100% {transform: translateY(-8px);}
+}
