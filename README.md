@@ -26,6 +26,8 @@ Other features included are handling validation errors, character counter, 'Go t
 ## Screenshots
 
 ![Landscape view for Desktop](https://github.com/Gp-singh-git/tweeter/blob/master/docs/Landscape%20view%20for%20Desktop.png?raw=true)
+
 ![Portrait view for Mobile devices, showing new tweet posting](https://github.com/Gp-singh-git/tweeter/blob/master/docs/Portrait%20Mode%20for%20Mobile%20devices.png?raw=true)
+
 ![Tweets posted](https://github.com/Gp-singh-git/tweeter/blob/master/docs/Tweets%20posted.png?raw=true)
 
