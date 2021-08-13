@@ -33,7 +33,10 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <!-- Helper Functions JS -->
+    <script type="text/javascript" src="/scripts/helpers.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+    
 
   </head>
 
@@ -55,10 +58,9 @@
       </div>
     </header>
   
-
+    <!-- To contain the New tweet form and icons -->
     <main class="container">
       <section class="new-tweet">
-        <!-- <h2>Compose Tweet</h2> -->
         <p id="error-msg" hidden ><i class="fas fa-exclamation-circle"></i>  <i class="fas fa-exclamation-circle"></i></p>
         <form id="form-tweet" action = "/tweets/", method ="POST">
           <label for="tweet-text" id="label-humming"><i>What are you humming about?</i></label>

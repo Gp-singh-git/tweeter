@@ -86,24 +86,24 @@ header label{
 }
 
 #topButton {
-  display: none;  
-  position: fixed;  
-  bottom: 20px;  
-  right: 20px;  
-  z-index: 3; 
-  border: 2px solid rgb(82, 6, 82);
   background-color: rgb(9, 18, 181);
+  border: 2px solid rgb(82, 6, 82);
+  border-radius: 5px;
+  bottom: 20px;  
   color: white; 
   cursor: pointer; 
-  padding: 15px; 
-  border-radius: 5px;
+  display: none;  
   font-size: 16px; 
-  width:120px;
-  height:50px;
   font-family: 'Bungee', cursive;
   font-weight: bold;
-  text-align:center;
+  height:50px;
+  padding: 15px; 
+  position: fixed;  
   padding-bottom: 5px;
+  right: 20px;  
+  text-align:center;
+  width:120px;
+  z-index: 3; 
 }
 
 #topButton:hover {

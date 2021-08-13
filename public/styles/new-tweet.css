@@ -13,7 +13,7 @@ main textarea {
   border-width: 0 0 2px 0 ;
   border-color: black; 
   background-color: white;
-  height:50px;
+  height:70px;
   margin: 10px 20px 0px 30px;
   resize: none;
   text-decoration-color: black;
@@ -51,6 +51,7 @@ button:hover{
 
 .t_area {
   justify-content: center;
+  margin-right: 10px;
   width:100%;
 }
 form {
