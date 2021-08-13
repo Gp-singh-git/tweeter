@@ -1,48 +1,49 @@
 .new-tweet {
-  width : 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
   align-items: flex-start;
-  /* border: 2px solid black; */
-  flex-direction: column;
   align-content: center;
   background-color: white;
-  /* margin-bottom: 20px; */
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 20px;
+  width : 100%;
 }
 main textarea {
-  width : 95%;
   border-width: 0 0 2px 0 ;
   border-color: black; 
-  margin: 10px 20px 0px 30px;
   background-color: white;
-  text-decoration-color: black;
   height:50px;
+  margin: 10px 20px 0px 30px;
   resize: none;
+  text-decoration-color: black;
+  width : 95%;
 }
 
 .submit_counter {
-  
-  display:flex;
-  width:90%;
-  justify-content: space-between;
   align-items: center;
   align-self: center;
+  display:flex;
+  justify-content: space-between;
   margin: 0px 0px 10px 20px;
-  
+  width:90%;
 }
 
 button {
   background-color: blue;
   color:white;
+  cursor: pointer; 
   font-size:large;
   font-weight: bolder;
-  margin-left: 20px;
-  width: 10%;
-  height: 35px;
   font-family: 'Bungee', cursive;
-  min-width: 80px;;
+  height: 35px;
+  margin-left: 20px;
+  min-width: 80px;
+  border:2px solid rgb(9, 9, 149);
+  border-radius: 10%;
+  width: 10%;
 }
+
 button:hover{
   background-color: rgb(134, 25, 212);
   color:yellow;
@@ -53,8 +54,8 @@ button:hover{
   width:100%;
 }
 form {
-  width:100%;
   margin-top: 20px;
+  width:100%;
 }
 
 label {
@@ -64,14 +65,15 @@ label {
 output {
   font-weight: bold;
 }
+
 #label-humming {
   margin-left: 25px;
 }
 
 #error-msg {
-  color:red;
   align-self: center;
-  justify-content: center;
   border: 3px solid red;
+  color:red;
   font-weight: bold;
+  justify-content: center;
 }

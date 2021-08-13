@@ -1,16 +1,22 @@
 header {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height:400px;
-  width: 100%;
-  flex-direction: column;
-  margin-top: 110px;
   background-color: #a67700;
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-
-
+  display: flex;
+  flex-direction: column;
+  height:400px;
+  justify-content: center;
+  margin-top: 110px;
+  width: 100%;
 }
+
 header h2{
   margin:0;
+}
+
+#pname {
+  color:brown;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
 }

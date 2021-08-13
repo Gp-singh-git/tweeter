@@ -10,17 +10,10 @@ html {
   box-sizing: inherit;
 }
 
-/*
- * Global layout stuff
- */
-
 body {
-  /* color: #545149; */
-  /* background-color: #a67700;
-  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+  display:flex;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
-  display:flex;
   flex-direction: column;
   height:100%;
 }
@@ -30,17 +23,11 @@ body nav span{
 }
 
 .container {
-  /* background-color: #a67700;
-  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
-  /* border: 5px solid black; */
-  height:1000px;
-  width: 100%;
   align-self: center;
   display: flex;
   flex-direction: column;
+  height:1000px;
   justify-content: stretch;
+  width: 100%;
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
